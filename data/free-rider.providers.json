@@ -1,0 +1,949 @@
+{
+  "generated_at": "2026-10-20T16:09:14",
+  "source": "awesome-freellm-apis (README 內嵌表格，每日刷新)",
+  "provider_count": 30,
+  "providers": [
+    {
+      "name": "Agnes AI",
+      "tier": "permanent",
+      "base_url": "https://apihub.agnes-ai.com/v1",
+      "key_url": "https://platform.agnes-ai.com/settings/apiKeys",
+      "credit_card": "Registration",
+      "free_models": 5,
+      "max_context": "256K",
+      "modalities": [
+        "image",
+        "reasoning",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "agnes-1.5-flash",
+          "ctx": "256K",
+          "rate_limit": "30 RPM"
+        },
+        {
+          "model_id": "agnes-2.0-flash",
+          "ctx": "256K",
+          "rate_limit": "30 RPM"
+        },
+        {
+          "model_id": "agnes-image-2.0-flash",
+          "ctx": "4K",
+          "rate_limit": "30 RPM (1K)"
+        }
+      ]
+    },
+    {
+      "name": "AI21 Labs",
+      "tier": "permanent",
+      "base_url": "https://api.ai21.com/studio/v1",
+      "key_url": "https://studio.ai21.com/account/api-key",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "256K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "jamba-large-1-7",
+          "ctx": "256K",
+          "rate_limit": "200 RPM, 10 RPS"
+        },
+        {
+          "model_id": "jamba-mini-2",
+          "ctx": "256K",
+          "rate_limit": "200 RPM, 10 RPS"
+        }
+      ]
+    },
+    {
+      "name": "Aion Labs",
+      "tier": "permanent",
+      "base_url": "https://api.aionlabs.ai/v1",
+      "key_url": "https://www.aionlabs.ai/app/api-keys/",
+      "credit_card": "Registration",
+      "free_models": 11,
+      "max_context": "131K",
+      "modalities": [
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "aion-labs-aion-2-0",
+          "ctx": "128K",
+          "rate_limit": "15 RPM, 20K TPD"
+        },
+        {
+          "model_id": "aion-labs-aion-rp-llama-3-1-8b",
+          "ctx": "32K",
+          "rate_limit": "15 RPM, 20K TPD"
+        },
+        {
+          "model_id": "aion-labs-aion-3-0",
+          "ctx": "128K",
+          "rate_limit": "15 RPM, 20K TPD"
+        }
+      ]
+    },
+    {
+      "name": "Alibaba Cloud Model Studio",
+      "tier": "permanent",
+      "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "key_url": "https://bailian.console.alibabacloud.com/?apiKey=1",
+      "credit_card": "Registration",
+      "free_models": 5,
+      "max_context": "1M",
+      "modalities": [
+        "code",
+        "image",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "qwen3-max",
+          "ctx": "128K",
+          "rate_limit": "Tiered by region"
+        },
+        {
+          "model_id": "qwen3-plus",
+          "ctx": "1M",
+          "rate_limit": "Tiered by region"
+        },
+        {
+          "model_id": "qwen3-vl-plus",
+          "ctx": "128K",
+          "rate_limit": "Tiered by region"
+        }
+      ]
+    },
+    {
+      "name": "Cerebras",
+      "tier": "permanent",
+      "base_url": "https://api.cerebras.ai/v1",
+      "key_url": "https://cloud.cerebras.ai/",
+      "credit_card": "No",
+      "free_models": 6,
+      "max_context": "131K",
+      "modalities": [
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "llama3.1-70b",
+          "ctx": "131K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "zai-glm-4-7-deprecated-aug-2026",
+          "ctx": "131K",
+          "rate_limit": "5 RPM, 30K TPM, 1M TPD"
+        },
+        {
+          "model_id": "zai-glm-4.7",
+          "ctx": "128K",
+          "rate_limit": "10 RPM, 100 RPD, 1M TPD"
+        }
+      ]
+    },
+    {
+      "name": "Chutes.ai",
+      "tier": "permanent",
+      "base_url": "https://api.chutes.ai/v1",
+      "key_url": "https://chutes.ai/",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "131K",
+      "modalities": [
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1",
+          "ctx": "131K",
+          "rate_limit": "Community-powered, no h.."
+        },
+        {
+          "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+          "ctx": "131K",
+          "rate_limit": "Community-powered, no h.."
+        }
+      ]
+    },
+    {
+      "name": "Cline",
+      "tier": "permanent",
+      "base_url": "",
+      "key_url": "Get Key →",
+      "credit_card": "Registration",
+      "free_models": 5,
+      "max_context": "0",
+      "modalities": [
+        "text",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "cline-free/muse-spark-1.3-contributor",
+          "ctx": "0",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "cline-free/mimo-v2.6-flash",
+          "ctx": "0",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "cline-free/solar-mini4",
+          "ctx": "0",
+          "rate_limit": "See provider"
+        }
+      ]
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "tier": "permanent",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
+      "key_url": "https://dash.cloudflare.com/profile/api-tokens",
+      "credit_card": "No",
+      "free_models": 41,
+      "max_context": "262K",
+      "modalities": [
+        "code",
+        "image",
+        "reasoning",
+        "text",
+        "video"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "@cf/mistral/mistral-7b-instruct-v0.1",
+          "ctx": "32K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "@cf/qwen/qwen1.5-7b-chat",
+          "ctx": "32K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+          "ctx": "24K",
+          "rate_limit": "10K neurons/day (shared)"
+        }
+      ]
+    },
+    {
+      "name": "Cohere",
+      "tier": "permanent",
+      "base_url": "https://api.cohere.com/v2",
+      "key_url": "https://dashboard.cohere.com/api-keys",
+      "credit_card": "No",
+      "free_models": 12,
+      "max_context": "256K",
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "command-a-218b",
+          "ctx": "128K",
+          "rate_limit": "20 RPM"
+        },
+        {
+          "model_id": "command-a-111b",
+          "ctx": "256K",
+          "rate_limit": "20 RPM"
+        },
+        {
+          "model_id": "command-r",
+          "ctx": "128K",
+          "rate_limit": "20 RPM"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "tier": "permanent",
+      "base_url": "https://api.deepseek.com/v1",
+      "key_url": "https://platform.deepseek.com/api_keys",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "128K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "deepseek-chat-v3-2",
+          "ctx": "128K",
+          "rate_limit": "Dynamic"
+        },
+        {
+          "model_id": "deepseek-reasoner-r1",
+          "ctx": "128K",
+          "rate_limit": "Dynamic"
+        }
+      ]
+    },
+    {
+      "name": "Glhf.chat",
+      "tier": "permanent",
+      "base_url": "https://glhf.chat/api/openai/v1",
+      "key_url": "https://glhf.chat/",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "131K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+          "ctx": "131K",
+          "rate_limit": "Unlimited for free models"
+        },
+        {
+          "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+          "ctx": "32K",
+          "rate_limit": "Unlimited for free models"
+        }
+      ]
+    },
+    {
+      "name": "Google Gemini",
+      "tier": "permanent",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "key_url": "https://aistudio.google.com/app/apikey",
+      "credit_card": "No",
+      "free_models": 19,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "image",
+        "pdf",
+        "reasoning",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "gemini-3.8-flash",
+          "ctx": "1M",
+          "rate_limit": "—"
+        },
+        {
+          "model_id": "gemini-3.7-flash",
+          "ctx": "1M",
+          "rate_limit": "—"
+        },
+        {
+          "model_id": "gemini-3.6-flash",
+          "ctx": "1M",
+          "rate_limit": "15 RPM, 1,500 RPD"
+        }
+      ]
+    },
+    {
+      "name": "Grok (xAI)",
+      "tier": "permanent",
+      "base_url": "https://api.x.ai/v1",
+      "key_url": "https://console.x.ai/",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "131K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "grok-2",
+          "ctx": "131K",
+          "rate_limit": "$25/month free credits,.."
+        },
+        {
+          "model_id": "grok-2-mini",
+          "ctx": "131K",
+          "rate_limit": "$25/month free credits,.."
+        }
+      ]
+    },
+    {
+      "name": "Groq",
+      "tier": "permanent",
+      "base_url": "https://api.groq.com/openai/v1",
+      "key_url": "https://console.groq.com/keys",
+      "credit_card": "No",
+      "free_models": 12,
+      "max_context": "262K",
+      "modalities": [
+        "image",
+        "reasoning",
+        "text",
+        "video"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "moonshotai/kimi-k2-instruct",
+          "ctx": "131K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "moonshotai/kimi-k2-instruct-0905",
+          "ctx": "131K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "groq/compound",
+          "ctx": "131K",
+          "rate_limit": "30 RPM, 250 RPD"
+        }
+      ]
+    },
+    {
+      "name": "Hugging Face",
+      "tier": "permanent",
+      "base_url": "https://router.huggingface.co/v1",
+      "key_url": "https://huggingface.co/settings/tokens",
+      "credit_card": "No",
+      "free_models": 9,
+      "max_context": "131K",
+      "modalities": [
+        "code",
+        "image",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "meta-llama-3-1-8b-instruct",
+          "ctx": "128K",
+          "rate_limit": "Credit-metered"
+        },
+        {
+          "model_id": "google/gemma-3-4b-it",
+          "ctx": "131K",
+          "rate_limit": "Credit-metered"
+        },
+        {
+          "model_id": "phi-4",
+          "ctx": "16K",
+          "rate_limit": "Credit-metered"
+        }
+      ]
+    },
+    {
+      "name": "Kilo Code",
+      "tier": "permanent",
+      "base_url": "https://api.kilo.ai/api/gateway",
+      "key_url": "https://app.kilo.ai/profile",
+      "credit_card": "No",
+      "free_models": 23,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "code",
+        "image",
+        "reasoning",
+        "text",
+        "video"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "ctx": "1M",
+          "rate_limit": "200 req/hr"
+        },
+        {
+          "model_id": "stepfun/step-3.7-flash",
+          "ctx": "262K",
+          "rate_limit": "200 req/hr"
+        },
+        {
+          "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "ctx": "262K",
+          "rate_limit": "200 req/hr"
+        }
+      ]
+    },
+    {
+      "name": "LLM7.io",
+      "tier": "permanent",
+      "base_url": "https://api.llm7.io/v1",
+      "key_url": "https://token.llm7.io",
+      "credit_card": "No",
+      "free_models": 24,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "code",
+        "image",
+        "pdf",
+        "reasoning",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "gpt-oss-20b",
+          "ctx": "128K",
+          "rate_limit": "60 RPM, 250 req/hr (fre.."
+        },
+        {
+          "model_id": "mistral-Nemo-Instruct-2407",
+          "ctx": "128K",
+          "rate_limit": "60 RPM, 250 req/hr (fre.."
+        },
+        {
+          "model_id": "minimax-m2.7",
+          "ctx": "180K",
+          "rate_limit": "60 RPM, 250 req/hr (fre.."
+        }
+      ]
+    },
+    {
+      "name": "Mistral AI",
+      "tier": "permanent",
+      "base_url": "https://api.mistral.ai/v1",
+      "key_url": "https://console.mistral.ai/api-keys",
+      "credit_card": "No",
+      "free_models": 15,
+      "max_context": "256K",
+      "modalities": [
+        "code",
+        "image",
+        "pdf",
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "open-mistral-7b",
+          "ctx": "32K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "open-mixtral-8x7b",
+          "ctx": "32K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "mistral-medium-3-5-128b",
+          "ctx": "256K",
+          "rate_limit": "~1 RPS, 500K TPM"
+        }
+      ]
+    },
+    {
+      "name": "ModelScope",
+      "tier": "permanent",
+      "base_url": "https://api-inference.modelscope.cn/v1",
+      "key_url": "https://modelscope.cn/my/myaccesstoken",
+      "credit_card": "Registration",
+      "free_models": 61,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "image",
+        "reasoning",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "MiniMax/MiniMax-M2.5",
+          "ctx": "204K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "qwen-qwen3-5-35b-a3b",
+          "ctx": "256K",
+          "rate_limit": "2,000 RPD total; <=500 .."
+        },
+        {
+          "model_id": "qwen-qwen3-5-27b",
+          "ctx": "256K",
+          "rate_limit": "2,000 RPD total; <=500 .."
+        }
+      ]
+    },
+    {
+      "name": "Nebius",
+      "tier": "permanent",
+      "base_url": "https://api.studio.nebius.com/v1",
+      "key_url": "https://studio.nebius.com/settings/api-keys",
+      "credit_card": "Registration",
+      "free_models": 1,
+      "max_context": "128K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "qwen3-235b-a22b",
+          "ctx": "128K",
+          "rate_limit": "Tier-based"
+        }
+      ]
+    },
+    {
+      "name": "Nscale",
+      "tier": "permanent",
+      "base_url": "https://inference.api.nscale.com/v1",
+      "key_url": "https://console.nscale.com/",
+      "credit_card": "Registration",
+      "free_models": 2,
+      "max_context": "128K",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "llama-3-3-70b-instruct",
+          "ctx": "128K",
+          "rate_limit": "Fair-use"
+        },
+        {
+          "model_id": "deepseek-r1-distill-llama-70b",
+          "ctx": "128K",
+          "rate_limit": "Fair-use"
+        }
+      ]
+    },
+    {
+      "name": "NVIDIA NIM",
+      "tier": "permanent",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "key_url": "https://build.nvidia.com/settings/api-keys",
+      "credit_card": "Phone verification",
+      "free_models": 134,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "embedding",
+        "image",
+        "pdf",
+        "reasoning",
+        "rerank",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "z-ai/glm-5.2",
+          "ctx": "1M",
+          "rate_limit": "Up to 40 RPM"
+        },
+        {
+          "model_id": "z-ai/glm-5.1",
+          "ctx": "202K",
+          "rate_limit": "Up to 40 RPM"
+        },
+        {
+          "model_id": "poolside/laguna-xs-2.1",
+          "ctx": "262K",
+          "rate_limit": "Up to 40 RPM"
+        }
+      ]
+    },
+    {
+      "name": "Ollama Cloud",
+      "tier": "permanent",
+      "base_url": "https://ollama.com/api",
+      "key_url": "https://ollama.com/settings/keys",
+      "credit_card": "Registration",
+      "free_models": 17,
+      "max_context": "1M",
+      "modalities": [
+        "code",
+        "image",
+        "reasoning",
+        "text",
+        "video",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "deepseek-v4-pro",
+          "ctx": "1M",
+          "rate_limit": "Session/weekly limits (.."
+        },
+        {
+          "model_id": "deepseek-v4-flash",
+          "ctx": "1M",
+          "rate_limit": "Session/weekly limits (.."
+        },
+        {
+          "model_id": "minimax-m3",
+          "ctx": "512K",
+          "rate_limit": "Session/weekly limits (.."
+        }
+      ]
+    },
+    {
+      "name": "OpenCode Zen",
+      "tier": "permanent",
+      "base_url": "https://opencode.ai/zen/v1",
+      "key_url": "https://opencode.ai/auth",
+      "credit_card": "Registration",
+      "free_models": 34,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "reasoning",
+        "vision"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "big-pickle",
+          "ctx": "0",
+          "rate_limit": ""
+        },
+        {
+          "model_id": "deepseek-v4-flash-free",
+          "ctx": "1M",
+          "rate_limit": ""
+        },
+        {
+          "model_id": "mimo-v2.5-free",
+          "ctx": "1M",
+          "rate_limit": ""
+        }
+      ]
+    },
+    {
+      "name": "OpenRouter",
+      "tier": "renewable",
+      "base_url": "https://openrouter.ai/api/v1",
+      "key_url": "https://openrouter.ai/workspaces/default/keys",
+      "credit_card": "Registration",
+      "free_models": 33,
+      "max_context": "1M",
+      "modalities": [
+        "audio",
+        "code",
+        "decisions",
+        "embeddings",
+        "image",
+        "reasoning",
+        "rerank",
+        "speech",
+        "text",
+        "video"
+      ],
+      "credit_model": "Free tier + $10 topup → 1K RPD",
+      "best_models": [
+        {
+          "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "ctx": "1M",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "minimax/minimax-m3.1-flash:free",
+          "ctx": "1M",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "nvidia/nemotron-3.5-super-vl:free",
+          "ctx": "1M",
+          "rate_limit": "See provider"
+        }
+      ]
+    },
+    {
+      "name": "OVHcloud AI Endpoints",
+      "tier": "permanent",
+      "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+      "key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "credit_card": "Registration",
+      "free_models": 15,
+      "max_context": "262K",
+      "modalities": [
+        "audio",
+        "code",
+        "image",
+        "reasoning",
+        "text",
+        "video"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "qwen3.5-397b-a17b",
+          "ctx": "262K",
+          "rate_limit": "2 RPM (anonymous)"
+        },
+        {
+          "model_id": "meta-llama-3_3-70b-instruct",
+          "ctx": "131K",
+          "rate_limit": "2 RPM (anonymous)"
+        },
+        {
+          "model_id": "qwen3.8-27b",
+          "ctx": "262K",
+          "rate_limit": "2 RPM (anonymous)"
+        }
+      ]
+    },
+    {
+      "name": "SambaNova",
+      "tier": "permanent",
+      "base_url": "https://api.sambanova.ai/v1",
+      "key_url": "https://cloud.sambanova.ai/apis",
+      "credit_card": "Registration",
+      "free_models": 4,
+      "max_context": "128K",
+      "modalities": [
+        "image",
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "deepseek-v3-1",
+          "ctx": "128K",
+          "rate_limit": "20 RPM, 20 RPD, 200K TPD"
+        },
+        {
+          "model_id": "deepseek-v3-2-preview",
+          "ctx": "128K",
+          "rate_limit": "20 RPM, 20 RPD, 200K TPD"
+        },
+        {
+          "model_id": "minimax-m2-7",
+          "ctx": "128K",
+          "rate_limit": "20 RPM, 20 RPD, 200K TPD"
+        }
+      ]
+    },
+    {
+      "name": "SiliconFlow",
+      "tier": "permanent",
+      "base_url": "https://api.siliconflow.cn/v1",
+      "key_url": "https://cloud.siliconflow.cn/account/ak",
+      "credit_card": "Registration",
+      "free_models": 4,
+      "max_context": "131K",
+      "modalities": [
+        "reasoning",
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "Qwen/Qwen3-8B",
+          "ctx": "128K",
+          "rate_limit": "1,000 RPM, 50,000 TPM"
+        },
+        {
+          "model_id": "abbreviation",
+          "ctx": "131K",
+          "rate_limit": "See provider"
+        },
+        {
+          "model_id": "deepseek-ai-deepseek-r1-distill-qwen-7b",
+          "ctx": "131K",
+          "rate_limit": "30 RPM, 60K TPM"
+        }
+      ]
+    },
+    {
+      "name": "xAI",
+      "tier": "permanent",
+      "base_url": "https://api.x.ai/v1",
+      "key_url": "https://console.x.ai",
+      "credit_card": "Registration",
+      "free_models": 3,
+      "max_context": "2M",
+      "modalities": [
+        "text"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "grok-4-3",
+          "ctx": "1M",
+          "rate_limit": "Credit-based"
+        },
+        {
+          "model_id": "grok-4-1-fast",
+          "ctx": "2M",
+          "rate_limit": "Credit-based"
+        },
+        {
+          "model_id": "grok-3-mini",
+          "ctx": "131K",
+          "rate_limit": "Credit-based"
+        }
+      ]
+    },
+    {
+      "name": "Z AI (Zhipu AI)",
+      "tier": "permanent",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "key_url": "https://open.bigmodel.cn/usercenter/apikeys",
+      "credit_card": "No",
+      "free_models": 8,
+      "max_context": "200K",
+      "modalities": [
+        "image",
+        "reasoning",
+        "text",
+        "video"
+      ],
+      "credit_model": "",
+      "best_models": [
+        {
+          "model_id": "glm-4.7-flash",
+          "ctx": "200K",
+          "rate_limit": "1 concurrent request"
+        },
+        {
+          "model_id": "glm-4-5-flash-retirement-announced",
+          "ctx": "128K",
+          "rate_limit": "1 concurrent request"
+        },
+        {
+          "model_id": "glm-4.6v-flash",
+          "ctx": "128K",
+          "rate_limit": "1 concurrent request"
+        }
+      ]
+    }
+  ]
+}

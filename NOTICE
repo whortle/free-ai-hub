@@ -1,0 +1,20 @@
+Free AI Hub
+============
+
+Copyright (c) 2026 Free AI Hub contributors.
+
+This project is MIT-licensed (see LICENSE).
+
+Primary upstream
+----------------
+freellmpool
+https://github.com/0xzr/freellmpool
+License: MIT (data/licenses/freellmpool-LICENSE)
+
+Used: `data/freellmpool.providers.toml` (provider ids, base URLs, auth mode,
+model ids, context sizes, key environment names and free-tier metadata) and
+the design of an OpenAI-compatible routing layer over free provider routes.
+
+The freellmpool Python runtime is not bundled or imported at runtime.
+
+The dashboard is an original implementation.
